@@ -1,0 +1,33 @@
+{
+    "name": "boxuk/describr-bundle",
+    "type": "library",
+    "description": "A Symfony2 bundle that integrates the Describr library",
+    "keywords": ["filesystem", "media", "metadata"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gavin Davies",
+            "email": "gavin.davies@gmail.com"
+        },
+        {
+            "name": "Craig Marvelley",
+            "email": "craig.marvelley@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "ext-fileinfo": "*",
+        "boxuk/describr": "dev-master"
+    },
+    "require-dev": {
+        "symfony/http-kernel": "2.*",
+        "symfony/http-foundation": "2.*",
+        "symfony/config": "2.*",
+        "symfony/dependency-injection": "2.*",
+        "symfony/yaml": "2.*"
+    },
+    "autoload": {
+        "psr-0": { "BoxUK\\Bundle\\DescribrBundle": "" }
+    },
+    "target-dir":   "BoxUK/Bundle/DescribrBundle"
+}

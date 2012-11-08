@@ -1,0 +1,4 @@
+composer.lock
+Tests/Functional/Resources/cache
+Tests/Functional/Resources/logs
+vendor
