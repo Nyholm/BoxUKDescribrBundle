@@ -17,7 +17,7 @@
     "require": {
         "php": ">=5.3.0",
         "ext-fileinfo": "*",
-        "boxuk/describr": "dev-master"
+        "boxuk/describr": "1.*"
     },
     "require-dev": {
         "symfony/http-kernel": "2.*",
